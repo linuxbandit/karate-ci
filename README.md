@@ -1,4 +1,4 @@
-# karate
+# karate-ci
 
 [intuit/karate](https://github.com/intuit/karate) in container for use with [CI templates](https://github.com/jobtome-labs/ci-templates/).
 
@@ -10,4 +10,4 @@
 
 To override the default version:
 
-`docker build -t linuxbandit/karate --build-arg OPENJDK_VERSION=9000 --build-arg KARATE_VERSION=1000 .`
+`docker build -t linuxbandit/karate-ci --build-arg OPENJDK_VERSION=9000 --build-arg KARATE_VERSION=1000 .`
